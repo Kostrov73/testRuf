@@ -20,7 +20,7 @@ pulse1=0
 pulse2=0
 pulse3=0
 
-
+#класс Первого экрана
 class FirstScr(Screen):
     def __init__(self,name='first'):
         super().__init__(name=name)
