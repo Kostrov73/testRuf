@@ -5,7 +5,10 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.screenmanager import ScreenManager, Screen
+
+##hi
 ######################### 123
+main
 from  instructions import *
 from scrollLabel import * 
 from seconds import *
