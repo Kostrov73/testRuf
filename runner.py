@@ -17,6 +17,7 @@ class Runner(BoxLayout):
         Animation(pos_hint={'top':1},duration=steptime/2))
         self.animation.on_progress=self.next
         self.btn=Button(size_hint=(1,.1),pos_hint={'top':1.0})
+        self.btn.background_color=(0.96,0.96,.96,1)
         self.add_widget(self.btn)
 
     def start(self):
